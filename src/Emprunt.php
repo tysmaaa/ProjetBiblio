@@ -3,10 +3,10 @@
 class Emprunt
 {
 
-private int $id;
-private string $dateEmprunt;
-private string $dateRetour;
-private string $dureeEmprunt;
+    private int $id;
+    private string $dateEmprunt;
+    private string $dateRetour;
+    private string $dureeEmprunt;
 
     /**
      * @param string $dateEmprunt
@@ -21,5 +21,13 @@ private string $dureeEmprunt;
         $this->dureeEmprunt = $dureeEmprunt;
     }
 
+    public function isEmpruntEnCours()
+    {
 
+    }
+
+    public function isEmpruntLate()
+    {
+
+    }
 }
